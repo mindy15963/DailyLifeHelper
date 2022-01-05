@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">일상도우미</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">일상도우미</string>
+    <string name="nav_header_subtitle">제작자: 김은석</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu1">메모장</string>
+    <string name="menu2">작은도서관 정보 확인</string>
+    <string name="menu3">현재 위치 확인</string>
+    <string name="menu4">제작자 소개 영상</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

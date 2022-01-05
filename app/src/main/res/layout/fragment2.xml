@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment2">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="https://bigdata.gwangju.go.kr/gjAPI/getSmallLib/getSmallLiblist.rd?apiSrvCd=0041&#38;pageNo=1&#38;numOfRow=10" />
+
+    <Button
+        android:id="@+id/button2A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조회하기" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

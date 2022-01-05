@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp">
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="제목 출력"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/txtcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttitle"
+        android:padding="10sp"
+        android:singleLine="true"
+        android:text="내용 출력"
+        android:textSize="10sp" />
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:layout_below="@id/txttitle"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/buttonU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
